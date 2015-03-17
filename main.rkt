@@ -572,3 +572,17 @@
                #:degree "Honour's")
    #:date 2012))
 
+
+
+;; ----------------------------------------
+; Type Systems for Dependent Types
+
+(define x-jfp-2007
+  (make-bib
+   #:title "Dependent ML: An Approach to Practical Programming with Dependent Types"
+   #:author (authors "Hongwei Xi")
+   #:date 2007
+   #:location (journal-location jfp
+                                #:volume 17
+                                #:number 2
+                                #:pages '("215" "286"))))
