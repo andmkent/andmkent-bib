@@ -577,6 +577,13 @@
 ;; ----------------------------------------
 ; Type Systems for Dependent Types
 
+(define xp-pldi-1998
+  (make-bib
+   #:title "Eliminating Array Bound Checking Through Dependent Types"
+   #:author (authors "Hongwei Xi" "Frank Pfenning")
+   #:date 1998
+   #:location (proceedings-location pldi #:pages '(249 257))))
+
 (define x-jfp-2007
   (make-bib
    #:title "Dependent ML: An Approach to Practical Programming with Dependent Types"
