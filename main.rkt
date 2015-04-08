@@ -593,3 +593,11 @@
                                 #:volume 17
                                 #:number 2
                                 #:pages '("215" "286"))))
+
+(define crj-popl-2012
+  (make-bib
+   #:title "Nested Refinements: A Logic for Duck Typing"
+   #:author (authors "Ravi Chugh" "Patrick Maxim Rondon"
+                     "Ranjit Jhala")
+   #:location (proceedings-location popl #:pages '(231 244))
+   #:date 2012))
