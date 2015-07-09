@@ -43,6 +43,7 @@
   (define/short scheme-workshop "SFP" (string-append Workshop "Scheme and Functional Programming"))
   (define/short ml-workshop "ML" (string-append Workshop "on ML"))
   (define/short jfp "JFP" (string-append Journal "Functional Programming"))
+  (define/short jct "JCT" (string-append Journal "Combinatorial Theory"))
   (define/short hosc "HOSC" "Higher-Order and Symbolic Programming")
   (define/short lfp "LFP" "LISP and Functional Programming")
   (define/short lsc "LSC" "LISP and Symbolic Computation")
@@ -601,3 +602,22 @@
                      "Ranjit Jhala")
    #:location (proceedings-location popl #:pages '(231 244))
    #:date 2012))
+
+(define de-jct-1973
+  (make-bib
+   #:title "Fourier-Motzkin elimination and its dual"
+   #:author (authors "George B. Dantzig" "B. Curtis Eaves")
+   #:location (journal-location jct
+                                #:volume 14
+                                #:number 3
+                                #:pages '("288" "297"))
+   #:date 1973))
+
+
+(define vcj-ecoop-2015
+  (make-bib
+   #:title "Trust, but Verify: Two-Phase Typing for Dynamic Languages"
+   #:author (authors "Panagiotis Vekris" "Benjamin Cosman"
+                     "Ranjit Jhala")
+   #:location (proceedings-location ecoop #:pages '(52 75))
+   #:date 2015))
