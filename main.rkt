@@ -110,14 +110,6 @@
 ;; ----------------------------------------
 ;; Subsequent work
 
-(define ktgff-tech-2007
-  (make-bib
-   #:title @~a{Sage: Unified Hybrid Checking for First-Class Types,
-               General Refinement Types, and Dynamic (Extended Report)}
-   #:author (authors "Kenneth Knowles" "Aaron Tomb" "Jessica Gronski"
-                     "Stephen N. Freund" "Cormac Flanagan")
-   #:date 2007))
-
 (define htf-tfp-2007
   (make-bib
    #:title "Space Efficient Gradual Typing"
@@ -694,3 +686,54 @@
                      "Hongwei Xi")
    #:location (proceedings-location icfp #:pages '(66 77))
    #:date 2005))
+
+(define vksb-dls-2014
+  (make-bib
+   #:author (authors "Michael M. Vitousek" "Andrew Kent" "Jeremy G. Siek" "Jim Baker")
+   #:title "Design and Evaluation of Gradual Typing for Python"
+   #:location (proceedings-location dls #:pages '(45 56))
+   #:date 2014))
+
+(define typescript
+  (make-bib
+   #:title @~a{TypeScript Language Specification}
+   #:location "http://www.typescriptlang.org/"
+   #:author (authors "Microsoft Co.")
+   #:date 2014))
+
+(define hack
+  (make-bib
+   #:title @~a{Hack}
+   #:location "http://hacklang.org/"
+   #:author (authors "Facebook Inc.")
+   #:date 2014))
+
+(define flow
+  (make-bib
+   #:title @~a{Flow: A static type checker for JavaScript}
+   #:location "http://flowtype.org/"
+   #:author (authors "Facebook Inc.")
+   #:date 2014))
+
+
+(define w-icfp-2014
+  (make-bib
+   #:title "Depending on Types"
+   #:author (authors "Stephanie Weirich")
+   #:location (proceedings-location icfp #:pages '(241 241))
+   #:date 2014))
+
+(define hm-icfp-2004
+  (make-bib
+   #:title "Improving the static analysis of embedded languages via partial evaluation"
+   #:author (authors "David Herman" "Philippe Meunier")
+   #:location (proceedings-location icfp #:pages '(16 27))
+   #:date 2004))
+
+(define fp-wml-2005
+  (make-bib
+   #:title "Practical Datatype Specializations with Phantom Types and Recursion Schemes"
+   #:author (authors "Matthew Fluet" "Riccardo Pucella")
+   #:date 2006
+   #:location (proceedings-location ml-workshop
+                                #:pages '("203" "228"))))
