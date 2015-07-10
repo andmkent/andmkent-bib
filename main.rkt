@@ -686,3 +686,11 @@
                      "Stephanie Weirich")
    #:location (proceedings-location popl #:pages '(353 364))
    #:date 2010))
+
+(define cx-icfp-2005
+  (make-bib
+   #:title "Combining Programming with Theorem Proving"
+   #:author (authors "Chiyan Chen"
+                     "Hongwei Xi")
+   #:location (proceedings-location icfp #:pages '(66 77))
+   #:date 2005))
