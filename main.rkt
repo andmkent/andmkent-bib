@@ -678,3 +678,11 @@
                      "Simon Peyton-Jones")
    #:location (proceedings-location icfp #:pages '(269 282))
    #:date 2014))
+
+(define gpw-popl-2010
+  (make-bib
+   #:title "Contracts Made Manifest"
+   #:author (authors "Michael Greenberg" "Benjamin C. Pierce"
+                     "Stephanie Weirich")
+   #:location (proceedings-location popl #:pages '(353 364))
+   #:date 2010))
