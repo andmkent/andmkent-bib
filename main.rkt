@@ -645,3 +645,25 @@
                                 #:number 1
                                 #:pages '("1" "44"))
    #:date 2000))
+
+
+(define kf-toplas-2010
+  (make-bib
+   #:title "Hybrid type checking"
+   #:author (authors "Kenneth Knowles"
+                     "Cormac Flanagan")
+   #:date 2010
+   #:location (journal-location toplas
+                                #:volume 32
+                                #:number 2
+                                #:pages '("6:1" "6:34"))))
+
+(define rkj-pldi-2008
+  (make-bib
+   #:title "Liquid Types"
+   #:author (authors "Patrick M. Rondon"
+                     "Ming Kawaguci"
+                     "Ranjit Jhala")
+   #:location (proceedings-location pldi #:pages '("159" "169"))
+   #:date 2008))
+
