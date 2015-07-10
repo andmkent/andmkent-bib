@@ -667,3 +667,14 @@
    #:location (proceedings-location pldi #:pages '("159" "169"))
    #:date 2008))
 
+
+(define vsjvpj-icfp-2014
+  (make-bib
+   #:title "Refinement Types for Haskell"
+   #:author (authors "Niki Vazou"
+                     "Eric L. Seidel"
+                     "Ranjit Jhala"
+                     "Dimitrios Vytiniotis"
+                     "Simon Peyton-Jones")
+   #:location (proceedings-location icfp #:pages '(269 282))
+   #:date 2014))
