@@ -66,7 +66,8 @@
   (define/short fool "FOOL" (~a International Workshop "on Foundations of Object-Oriented Languages"))
   (define/short icse "ICSE" (~a International Conference "on Software Engineering"))
   (define/short icalp "ICALP" (string-append International "Colloquium on Automata, Languages, and Programming"))
-  (define/short sac "SAC" (string-append Symposium "on Applied Computing")))
+  (define/short sac "SAC" (string-append Symposium "on Applied Computing"))
+  (define/short ifiptcs "IFIP TCS" (string-append "IFIP " Conference "Theoretical Computer Science")))
 
 (require 'util)
 
@@ -583,7 +584,7 @@
    #:title "Eliminating Array Bound Checking Through Dependent Types"
    #:author (authors "Hongwei Xi" "Frank Pfenning")
    #:date 1998
-   #:location (proceedings-location pldi #:pages '(249 257))))
+   #:location (proceedings-location pldi #:pages '("249" "257"))))
 
 (define x-jfp-2007
   (make-bib
@@ -600,7 +601,7 @@
    #:title "Nested Refinements: A Logic for Duck Typing"
    #:author (authors "Ravi Chugh" "Patrick Maxim Rondon"
                      "Ranjit Jhala")
-   #:location (proceedings-location popl #:pages '(231 244))
+   #:location (proceedings-location popl #:pages '("231" "244"))
    #:date 2012))
 
 (define de-jct-1973
@@ -619,5 +620,28 @@
    #:title "Trust, but Verify: Two-Phase Typing for Dynamic Languages"
    #:author (authors "Panagiotis Vekris" "Benjamin Cosman"
                      "Ranjit Jhala")
-   #:location (proceedings-location ecoop #:pages '(52 75))
+   #:location (proceedings-location ecoop #:pages '("52" "75"))
    #:date 2015))
+
+(define otmw-ifiptcs-2004
+  (make-bib
+   #:title "Dynamic typing with dependent types"
+   #:author (authors "Xinming Ou"
+                     "Gang Ta"
+                     "Yitzhak Mandelbaum"
+                     "David Walker")
+   #:location (journal-location ifiptcs
+                                #:volume 155
+                                #:pages '("437" "450"))
+   #:date 2004))
+
+(define pt-toplas-2012
+  (make-bib
+   #:title "Local Type Inference"
+   #:author (authors "Benjamin C. Pierce"
+                     "David N. Turner")
+   #:location (journal-location toplas
+                                #:volume 22
+                                #:number 1
+                                #:pages '("1" "44"))
+   #:date 2000))
