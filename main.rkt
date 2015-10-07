@@ -67,7 +67,8 @@
   (define/short icse "ICSE" (~a International Conference "on Software Engineering"))
   (define/short icalp "ICALP" (string-append International "Colloquium on Automata, Languages, and Programming"))
   (define/short sac "SAC" (string-append Symposium "on Applied Computing"))
-  (define/short ifiptcs "IFIP TCS" (string-append "IFIP " Conference "Theoretical Computer Science")))
+  (define/short ifiptcs "IFIP TCS" (string-append "IFIP " Conference "Theoretical Computer Science"))
+  (define/short snapl "SNAPL" "Summit on Advances in Programming Languages"))
 
 (require 'util)
 
@@ -737,3 +738,13 @@
    #:date 2006
    #:location (proceedings-location ml-workshop
                                 #:pages '("203" "228"))))
+
+;;-----
+;; misc racket
+(define fffkbmth-snapl-2015
+  (make-bib
+   #:author (authors "Matthias Felleisen" "Robert Bruce Findler" "Matthew Flatt"
+                     "Shriram Krishnamurthi" "Eli Barzilay" "Jay McCarthy" "Sam Tobin-Hochstadt")
+   #:title "The Racket Manifesto"
+   #:location (proceedings-location snapl #:pages '(113 128))
+   #:date 2015))
