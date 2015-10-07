@@ -698,23 +698,30 @@
 (define typescript
   (make-bib
    #:title @~a{TypeScript Language Specification}
-   #:location "http://www.typescriptlang.org/"
+   #:location "http://www.typescriptlang.org"
    #:author (authors "Microsoft Co.")
    #:date 2014))
 
 (define hack
   (make-bib
    #:title @~a{Hack}
-   #:location "http://hacklang.org/"
+   #:location "http://hacklang.org"
    #:author (authors "Facebook Inc.")
    #:date 2014))
 
 (define flow
   (make-bib
    #:title @~a{Flow: A static type checker for JavaScript}
-   #:location "http://flowtype.org/"
+   #:location "http://flowtype.org"
    #:author (authors "Facebook Inc.")
    #:date 2014))
+
+(define typescript-unions
+  (make-bib
+   #:title @~a{Announcing TypeScript 1.4}
+   #:location "http://blogs.msdn.com/b/typescript/archive/2015/01/16/announcing-typescript-1-4.aspx"
+   #:author (authors "Jonathan Turner")
+   #:date 2015))
 
 
 (define w-icfp-2014
