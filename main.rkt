@@ -709,6 +709,17 @@
    #:author (authors "Facebook Inc.")
    #:date 2014))
 
+
+(define scfyby-icfp-2011
+  (make-bib
+   #:title "Secure Distributed Programming with Value-Dependent Types"
+   #:author (authors "Nikhil Swamy" "Juan Chen" "Cédric Fournet"
+                     "Pierre-Yves Strub" "Karthikeyan Bhargavan"
+                     "Jean Yang")
+   #:location (proceedings-location icfp #:pages '(266 278))
+   #:date 2011))
+
+
 (define flow
   (make-bib
    #:title @~a{Flow: A static type checker for JavaScript}
