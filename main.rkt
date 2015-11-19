@@ -766,3 +766,10 @@
    #:title "The Racket Manifesto"
    #:location (proceedings-location snapl #:pages '(113 128))
    #:date 2015))
+
+(define sewpr
+  (make-bib
+   #:author (authors "Robert Bruce Findler" "Matthew Flatt" "Matthias Felleisen")
+   #:title "Semantics Engineering with PLT Redex"
+   #:location (book-location #:publisher "MIT Press")
+   #:date 2009))
