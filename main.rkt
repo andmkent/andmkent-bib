@@ -773,3 +773,10 @@
    #:title "Semantics Engineering with PLT Redex"
    #:location (book-location #:publisher "MIT Press")
    #:date 2009))
+
+(define z3 
+  (make-bib
+   #:title "Z3: An Efficient SMT Solver"
+   #:author (authors "Leonardo De Moura" "Nikolaj Bjorner")
+   #:date 2008
+   #:location (proceedings-location "TACAS")))
