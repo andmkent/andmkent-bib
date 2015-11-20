@@ -794,3 +794,12 @@
                      "Santiago Zanella-Béguelin")
    #:location (proceedings-location popl)
    #:date 2016))
+
+;; AES encryption standard
+(define aes-fips-197
+  (make-bib
+   #:title (string-append "\"Announcing the ADVANCED ENCRYPTION STANDARD (AES).\" "
+                          "Federal Information Processing Standards Publication 197. "
+                          "United States National Institute of Standards and Technology (NIST)")
+   #:location "November 26"
+   #:date 2001))
