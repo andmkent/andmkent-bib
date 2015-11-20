@@ -780,3 +780,17 @@
    #:author (authors "Leonardo De Moura" "Nikolaj Bjorner")
    #:date 2008
    #:location (proceedings-location "TACAS")))
+
+(define f*-popl-2016
+  (make-bib
+   #:title "Dependent Types and Multi-Monadic Effects in F*"
+   #:author (authors "Nikhil Swamy" "Cătălin Hriţcu"
+                     "Chantal Keller" "Aseem Rastogi"
+                     "Antoine Delignat-Lavaud"
+                     "Simon Forest" "Karthikeyan Bhargavan"
+                     "Cédric Fournet" "Pierre-Yves Strub"
+                     "Markulf Kohlweiss"
+                     "Jean-Karim Zinzindohoue"
+                     "Santiago Zanella-Béguelin")
+   #:location (proceedings-location popl)
+   #:date 2016))
