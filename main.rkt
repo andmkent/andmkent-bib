@@ -41,6 +41,7 @@
   (define/short lncs "LNCS" "Lecture Notes in Computer Science")
   (define/short sigplan-notices "SIGPLAN Notices" (string-append ACM "SIGPLAN Notices"))
   (define/short scheme-workshop "SFP" (string-append Workshop "Scheme and Functional Programming"))
+  (define/short plpv "PLPV" (string-append Workshop "Programming Languages Meets Program Verification"))
   (define/short ml-workshop "ML" (string-append Workshop "on ML"))
   (define/short jfp "JFP" (string-append Journal "Functional Programming"))
   (define/short jct "JCT" (string-append Journal "Combinatorial Theory"))
@@ -803,3 +804,11 @@
                           "United States National Institute of Standards and Technology (NIST)")
    #:location "November 26"
    #:date 2001))
+
+(define kf-plpv-2009
+  (make-bib
+   #:title "Compositional Reasoning and Decidable Checking for Dependent Contract Types"
+   #:author (authors "Kenneth Knowles" "Cormac Flanagan")
+   #:date 2009
+   #:location (proceedings-location plpv
+                                    #:pages '("27" "38"))))
